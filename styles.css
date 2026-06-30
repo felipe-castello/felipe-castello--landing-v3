@@ -62,18 +62,57 @@ img { display: block; max-width: 100%; height: auto; }
 .brand {
   display: inline-flex;
   align-items: center;
+  gap: 10px;
   flex: 0 0 auto;
-  max-width: min(360px, 34vw);
+  max-width: min(380px, 34vw);
   overflow: visible;
 }
 
-.brand img {
-  width: 100%;
-  max-width: 360px;
-  height: auto;
-  max-height: 62px;
+.brand-icon {
+  display: inline-flex;
+  align-items: center;
+  width: 58px;
+  height: 58px;
+  overflow: hidden;
+  flex: 0 0 58px;
+}
+
+.brand-icon img {
+  width: 250px;
+  max-width: none;
+  height: 58px;
   object-fit: contain;
+  object-position: left center;
   overflow: visible;
+}
+
+.brand-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  line-height: 1.05;
+  text-shadow: 0 0 12px rgba(0, 180, 255, .25);
+}
+
+.brand-copy strong {
+  color: #fff;
+  font-size: clamp(22px, 1.7vw, 30px);
+  font-weight: 900;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.brand-copy strong span {
+  color: var(--cyan);
+}
+
+.brand-copy small {
+  margin-top: 4px;
+  color: #cfd8e6;
+  font-size: clamp(10px, .8vw, 13px);
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .menu-toggle {
@@ -658,10 +697,22 @@ button:focus-visible {
 @media (max-width: 780px) {
   .site-header { padding: 12px 18px; }
   .brand {
-    max-width: min(280px, calc(100vw - 96px));
+    max-width: min(300px, calc(100vw - 96px));
   }
-  .brand img {
-    max-height: 56px;
+  .brand-icon {
+    width: 50px;
+    height: 50px;
+    flex-basis: 50px;
+  }
+  .brand-icon img {
+    width: 216px;
+    height: 50px;
+  }
+  .brand-copy strong {
+    font-size: 21px;
+  }
+  .brand-copy small {
+    font-size: 10px;
   }
   .whatsapp-float {
     right: 16px;
