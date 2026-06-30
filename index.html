@@ -1,363 +1,209 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nexus IoT Energy | Monitoramento inteligente de energia e ativos</title>
-  <meta name="description" content="Reduza custos com energia e evite falhas criticas com monitoramento inteligente de energia, refrigeracao, ativos, alarmes e manutencao." />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
-  <meta name="theme-color" content="#020c1b" />
-  <link rel="canonical" href="https://www.nexusiotenergy.com.br/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="pt_BR" />
-  <meta property="og:site_name" content="Nexus IoT Energy" />
-  <meta property="og:title" content="Nexus IoT Energy | Monitoramento inteligente de energia e ativos" />
-  <meta property="og:description" content="Monitore energia, refrigeracao, ativos criticos, alarmes e manutencao em uma unica plataforma inteligente." />
-  <meta property="og:url" content="https://www.nexusiotenergy.com.br/" />
-  <meta property="og:image" content="https://www.nexusiotenergy.com.br/assets/nexus/hero-dashboard.png" />
-  <meta property="og:image:alt" content="Dashboard Nexus IoT Energy com indicadores de energia, alarmes e disponibilidade" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Nexus IoT Energy | Monitoramento inteligente de energia e ativos" />
-  <meta name="twitter:description" content="Reduza custos com energia e evite falhas criticas com monitoramento inteligente em tempo real." />
-  <meta name="twitter:image" content="https://www.nexusiotenergy.com.br/assets/nexus/hero-dashboard.png" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <link rel="preload" as="image" href="assets/nexus/nexus-logo.png" />
-  <link rel="preload" as="image" href="assets/nexus/hero-dashboard.png" fetchpriority="high" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Nexus IoT Energy",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
-    "url": "https://www.nexusiotenergy.com.br/",
-    "description": "Plataforma para monitoramento inteligente de energia, refrigeracao, ativos, alarmes e manutencao.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Nexus IoT Energy",
-      "url": "https://www.nexusiotenergy.com.br/",
-      "logo": "https://www.nexusiotenergy.com.br/assets/nexus/nexus-logo.png",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "sales",
-        "email": "darcycastello@gmail.com",
-        "telephone": "+55-27-99969-9899",
-        "areaServed": "BR",
-        "availableLanguage": "Portuguese"
-      }
-    },
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "BRL",
-      "description": "Demonstracao personalizada sob solicitacao"
-    }
-  }
-  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nexus IoT Energy | Reduza custos com energia e evite falhas críticas</title>
+  <meta name="description" content="Monitore energia, refrigeração, ativos críticos, alarmes e manutenção em uma plataforma inteligente para supermercados, centros de distribuição e operações refrigeradas.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.nexusiotenergy.com.br/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nexus IoT Energy | Monitoramento inteligente em tempo real">
+  <meta property="og:description" content="Reduza custos com energia e evite falhas críticas com dashboards, alertas e indicadores em tempo real.">
+  <meta property="og:url" content="https://www.nexusiotenergy.com.br/">
+  <meta property="og:image" content="https://www.nexusiotenergy.com.br/assets/nexus/hero-dashboard.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nexus IoT Energy">
+  <meta name="twitter:description" content="Reduza custos com energia e evite falhas críticas com monitoramento inteligente.">
+  <meta name="twitter:image" content="https://www.nexusiotenergy.com.br/assets/nexus/hero-dashboard.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" as="image" href="assets/nexus/nexus-logo.png">
+  <link rel="preload" as="image" href="assets/nexus/hero-dashboard.png" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#top">Pular para o conteudo principal</a>
-  <header class="header">
-    <a class="brand" href="#top" aria-label="Nexus IoT Energy">
-      <img class="logo" src="assets/nexus/nexus-logo.png" width="360" height="84" alt="Nexus IoT Energy" decoding="async" fetchpriority="high" />
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Nexus IoT Energy">
+      <img src="assets/nexus/nexus-logo.png" width="360" height="84" alt="Nexus IoT Energy">
     </a>
-    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">â˜°</button>
-    <nav class="nav" aria-label="Navegacao principal">
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navegação principal">
       <div class="nav-links">
-        <a href="#solucoes">Solu&ccedil;&atilde;o</a>
-        <a href="#beneficios">Funcionalidades</a>
-        <a href="#setores">Segmentos</a>
+        <a href="#solucao">Solução</a>
+        <a href="#funcionalidades">Funcionalidades</a>
+        <a href="#segmentos">Segmentos</a>
         <a href="#casos">Casos</a>
-        <a href="#ia">Recursos</a>
-        <a href="#contato">Empresa</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#empresa">Empresa</a>
       </div>
       <div class="nav-actions">
         <a class="btn btn-fcx" href="https://app.nexusiotenergy.com.br/login">
           <span>Acessar FCX 5.2</span>
           <small>Plataforma de monitoramento</small>
         </a>
-        <a class="btn btn-primary btn-small" href="#contato">Solicitar demonstra&ccedil;&atilde;o</a>
+        <a class="btn btn-primary" href="#contato">Solicitar demonstração</a>
       </div>
-      <a href="#solucoes">SoluÃ§Ãµes</a>
-      <a href="#beneficios">BenefÃ­cios</a>
-      <a href="#como-funciona">Como Funciona</a>
-      <a href="#setores">Setores</a>
-      <a href="#ia">IA Industrial</a>
-      <a href="#contato">Contato</a>
-      <a class="btn btn-primary btn-small" href="https://app.nexusiotenergy.com.br/login">Acessar FCX 5.2 â†’</a>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero hero-v2 section" aria-labelledby="hero-title">
-      <div class="hero-content">
-        <h1 id="hero-title" aria-label="Reduza custos com energia e evite falhas críticas">Reduza custos com energia e evite <span>falhas críticas</span></h1>
-        <p class="hero-subtitle">Em supermercados, centros de distribui&ccedil;&atilde;o e opera&ccedil;&otilde;es refrigeradas com monitoramento inteligente em tempo real.</p>
-        <p class="hero-support">Monitore energia, refrigera&ccedil;&atilde;o, ativos cr&iacute;ticos, alarmes e manuten&ccedil;&atilde;o em uma &uacute;nica plataforma inteligente com dashboards, alertas e indicadores para decis&otilde;es r&aacute;pidas.</p>
-        <div class="actions hero-actions">
-          <a class="btn btn-primary" href="#contato">Solicitar demonstra&ccedil;&atilde;o</a>
-          <a class="btn btn-specialist" href="#contato">Falar com um especialista</a>
+  <main id="conteudo">
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <h1>Reduza custos com energia e evite <span>falhas críticas</span></h1>
+        <p class="hero-subtitle">Em supermercados, centros de distribuição e operações refrigeradas com monitoramento inteligente em tempo real.</p>
+        <p class="hero-support">Monitore energia, refrigeração, ativos críticos, alarmes e manutenção em uma única plataforma inteligente com dashboards, alertas e indicadores para decisões rápidas.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-large" href="#contato">Solicitar demonstração</a>
+          <a class="btn btn-outline btn-large" href="#contato">Falar com um especialista</a>
         </div>
-        <div class="trust-row hero-benefits" aria-label="Beneficios da plataforma">
-          <span>Implanta&ccedil;&atilde;o r&aacute;pida</span>
+        <div class="hero-benefits" aria-label="Benefícios">
+          <span>Implantação rápida</span>
           <span>Monitoramento 24/7</span>
           <span>Suporte especializado</span>
         </div>
       </div>
-      <div class="hero-visual" aria-label="Dashboard Nexus IoT Energy">
-        <img src="assets/nexus/hero-dashboard.png" width="960" height="604" alt="Dashboard Nexus IoT Energy com indicadores de energia, alarmes e disponibilidade" decoding="async" fetchpriority="high" />
-        <div class="hero-kpis" aria-label="Indicadores principais">
-          <article><small>Consumo atual</small><strong>128,7 kW</strong></article>
-          <article><small>Demanda</small><strong>142,3 kW</strong></article>
-          <article><small>Fator de pot&ecirc;ncia</small><strong>0,96</strong></article>
-          <article class="critical"><small>Alarmes ativos</small><strong>12</strong></article>
-          <article><small>Equipamentos</small><strong>248</strong></article>
-          <article><small>Ordens de Servi&ccedil;o</small><strong>23</strong></article>
-          <article><small>Disponibilidade</small><strong>98,5%</strong></article>
-        </div>
+      <div class="hero-panel" aria-label="Dashboard Nexus IoT Energy">
+        <img src="assets/nexus/hero-dashboard.png" width="960" height="604" alt="Dashboard com indicadores de energia, demanda, alarmes e disponibilidade" fetchpriority="high">
       </div>
     </section>
 
-    <section class="trust-impact section" aria-labelledby="trusted-title">
-      <div class="trusted-companies">
-        <p id="trusted-title">Empresas que confiam na Nexus IoT Energy</p>
-        <div class="company-strip" aria-label="Empresas clientes">
-          <span>TERCA ZILLI<small>Distribui&ccedil;&atilde;o</small></span>
-          <span>MetalTrade<small>Com&eacute;rcio Exterior</small></span>
-          <span>Casagrande Supermercados<small>Supermercados</small></span>
+    <section id="solucao" class="trust-impact">
+      <div class="trusted">
+        <p>Empresas que confiam na Nexus IoT Energy</p>
+        <div class="company-strip" aria-label="Clientes">
+          <strong>TERCA ZILLI <span>Distribuição</span></strong>
+          <strong>MetalTrade <span>Comércio Exterior</span></strong>
+          <strong>Casagrande Supermercados <span>Supermercados</span></strong>
         </div>
       </div>
-      <div class="impact-indicators" aria-label="Indicadores da plataforma">
+      <div class="metrics" aria-label="Indicadores">
         <article><strong>+500</strong><span>ativos monitorados</span></article>
-        <article><strong>+30%</strong><span>redu&ccedil;&atilde;o m&eacute;dia de custos</span></article>
+        <article><strong>+30%</strong><span>redução média de custos</span></article>
         <article><strong>+98%</strong><span>disponibilidade dos sistemas</span></article>
-        <article><strong>24/7</strong><span>monitoramento cont&iacute;nuo</span></article>
+        <article><strong>24/7</strong><span>monitoramento contínuo</span></article>
       </div>
     </section>
 
-    <section id="beneficios" class="section">
-      <h2>Funcionalidades</h2>
-      <div class="cards six">
-        <article><span>ðŸ’²</span><h3>ReduÃ§Ã£o de custos</h3><p>Identifique desperdÃ­cios e reduza custos com energia elÃ©trica e refrigeraÃ§Ã£o.</p></article>
-        <article><span>ðŸ””</span><h3>Menos falhas</h3><p>Antecipe problemas e evite paradas nÃ£o planejadas.</p></article>
-        <article><span>â±</span><h3>Alertas em tempo real</h3><p>Receba notificaÃ§Ãµes instantÃ¢neas sobre anomalias.</p></article>
-        <article><span>â–£</span><h3>Controle de ativos</h3><p>Tenha visibilidade dos equipamentos e dispositivos IoT.</p></article>
-        <article><span>ðŸ”§</span><h3>ManutenÃ§Ã£o organizada</h3><p>Gere tarefas, acompanhe execuÃ§Ã£o e aumente produtividade.</p></article>
-        <article><span>ðŸ“ˆ</span><h3>RelatÃ³rios executivos</h3><p>Dashboards automÃ¡ticos para decisÃµes estratÃ©gicas.</p></article>
-      </div>
-    </section>
-
-    <section id="como-funciona" class="how-it-works-v2 section" aria-labelledby="how-title">
-      <h2 id="how-title">Como funciona</h2>
-      <div class="how-steps">
-        <article class="how-step">
-          <b>1</b>
-          <div class="how-icon" aria-hidden="true">
-            <svg viewBox="0 0 48 48"><path d="M10 30h28v10H10z"/><path d="M16 30v-6h16v6"/><path d="M18 18c3.6-3.1 8.4-3.1 12 0"/><path d="M14 13c6-5.2 14-5.2 20 0"/></svg>
-          </div>
+    <section id="como-funciona" class="how section-light">
+      <h2>Como funciona</h2>
+      <div class="steps">
+        <article>
+          <span class="step-number">1</span>
+          <div class="line-icon" aria-hidden="true">⌁</div>
           <h3>Conectamos seus equipamentos</h3>
+          <p>Integramos dispositivos e sensores via IoT, MQTT ou protocolos industriais.</p>
         </article>
-        <span class="step-arrow" aria-hidden="true">&darr;</span>
-        <article class="how-step">
-          <b>2</b>
-          <div class="how-icon" aria-hidden="true">
-            <svg viewBox="0 0 48 48"><path d="M14 34h20a8 8 0 0 0 0-16 11 11 0 0 0-21-3 9 9 0 0 0 1 19z"/><path d="M24 20v12"/><path d="M18 26h12"/></svg>
-          </div>
+        <article>
+          <span class="step-number">2</span>
+          <div class="line-icon" aria-hidden="true">☁</div>
           <h3>Centralizamos todos os dados</h3>
+          <p>Coletamos, armazenamos e organizamos as informações em tempo real.</p>
         </article>
-        <span class="step-arrow" aria-hidden="true">&darr;</span>
-        <article class="how-step">
-          <b>3</b>
-          <div class="how-icon" aria-hidden="true">
-            <svg viewBox="0 0 48 48"><path d="M24 10a10 10 0 0 0-10 10v7l-4 6h28l-4-6v-7a10 10 0 0 0-10-10z"/><path d="M20 37a4 4 0 0 0 8 0"/><path d="M35 10l3-3"/><path d="M13 10l-3-3"/></svg>
-          </div>
-          <h3>Voc&ecirc; recebe alertas e indicadores em tempo real</h3>
-        </article>
-      </div>
-    </section>
-
-    <section id="solucoes" class="panel-suite-v2 section" aria-labelledby="panels-title">
-      <h2 id="panels-title">Tudo que sua opera&ccedil;&atilde;o precisa em um &uacute;nico painel.</h2>
-      <div class="panel-grid-v2">
-        <article class="panel-card"><h3>Energia</h3><img src="assets/nexus/dashboard-energy.png" width="420" height="332" alt="Painel de Energia" loading="lazy" decoding="async" /></article>
-        <article class="panel-card"><h3>Alarmes</h3><img src="assets/nexus/dashboard-alarms.png" width="420" height="332" alt="Painel de Alarmes" loading="lazy" decoding="async" /></article>
-        <article class="panel-card"><h3>Refrigera&ccedil;&atilde;o</h3><img src="assets/nexus/dashboard-refrigeration.png" width="420" height="332" alt="Painel de Refrigera&ccedil;&atilde;o" loading="lazy" decoding="async" /></article>
-        <article class="panel-card"><h3>Ativos</h3><img src="assets/nexus/dashboard-assets.png" width="420" height="332" alt="Painel de Ativos" loading="lazy" decoding="async" /></article>
-        <article class="panel-card"><h3>Ordens de Servi&ccedil;o</h3><img src="assets/nexus/dashboard-os.png" width="420" height="332" alt="Painel de Ordens de Servi&ccedil;o" loading="lazy" decoding="async" /></article>
-        <article class="panel-card"><h3>IA &amp; An&aacute;lise Preditiva</h3><img src="assets/nexus/dashboard-ai.png" width="420" height="332" alt="Painel de IA e An&aacute;lise Preditiva" loading="lazy" decoding="async" /></article>
-      </div>
-      <a class="btn panel-suite-cta" href="https://app.nexusiotenergy.com.br/login">Ver plataforma completa</a>
-    </section>
-
-    <section class="platform-differentials section" aria-labelledby="differentials-title">
-      <h2 id="differentials-title">Por que escolher a Nexus IoT Energy?</h2>
-      <div class="differentials-grid">
-        <article class="differential-card">
-          <span class="diff-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 7v6"/><path d="M24 35v6"/><path d="M9 24h6"/><path d="M33 24h6"/><path d="M15 15l4 4"/><path d="M29 29l4 4"/><path d="M33 15l-4 4"/><path d="M19 29l-4 4"/><circle cx="24" cy="24" r="8"/><path d="M21 24h6"/><path d="M24 21v6"/></svg></span>
-          <h3>IA Industrial</h3>
-          <p>Algoritmos avan&ccedil;ados para prever falhas e gerar insights.</p>
-        </article>
-        <article class="differential-card">
-          <span class="diff-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M12 30a17 17 0 0 1 24 0"/><path d="M17 25a10 10 0 0 1 14 0"/><path d="M22 20a3 3 0 0 1 4 0"/><path d="M24 34v5"/></svg></span>
-          <h3>MQTT</h3>
-          <p>Comunica&ccedil;&atilde;o leve, segura e confi&aacute;vel em tempo real.</p>
-        </article>
-        <article class="differential-card">
-          <span class="diff-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M10 16h10v10H10z"/><path d="M28 8h10v10H28z"/><path d="M28 30h10v10H28z"/><path d="M20 21h4"/><path d="M24 13h4"/><path d="M24 35h4"/><path d="M24 13v22"/></svg></span>
-          <h3>Modbus</h3>
-          <p>Integra&ccedil;&atilde;o com equipamentos novos e legados.</p>
-        </article>
-        <article class="differential-card">
-          <span class="diff-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 40V16l10-6 10 6v24"/><path d="M28 40V20l12-6v26"/><path d="M13 22h4"/><path d="M13 29h4"/><path d="M33 25h3"/><path d="M33 32h3"/></svg></span>
-          <h3>Multiempresa</h3>
-          <p>Gest&atilde;o centralizada de m&uacute;ltiplas unidades e times.</p>
-        </article>
-        <article class="differential-card">
-          <span class="diff-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 10h32v24H8z"/><path d="M14 40h20"/><path d="M24 34v6"/><path d="M14 28l6-7 6 4 8-10"/></svg></span>
-          <h3>Dashboards</h3>
-          <p>Visualiza&ccedil;&otilde;es personalizadas e interativas.</p>
-        </article>
-        <article class="differential-card">
-          <span class="diff-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 9a10 10 0 0 0-10 10v7l-4 7h28l-4-7v-7A10 10 0 0 0 24 9z"/><path d="M20 37a4 4 0 0 0 8 0"/><path d="M34 11l4-4"/><path d="M14 11l-4-4"/></svg></span>
-          <h3>Alarmes Inteligentes</h3>
-          <p>Alertas com contexto, criticidade e a&ccedil;&atilde;o recomendada.</p>
-        </article>
-        <article class="differential-card">
-          <span class="diff-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 6l16 8v12c0 9-6 14-16 18C14 40 8 35 8 26V14z"/><path d="M18 24h12"/><path d="M24 18v12"/></svg></span>
-          <h3>Gest&atilde;o de Ativos</h3>
-          <p>Controle completo do ciclo de vida dos equipamentos.</p>
-        </article>
-        <article class="differential-card">
-          <span class="diff-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="16"/><path d="M24 14v10l7 4"/><path d="M8 24H5"/><path d="M43 24h-3"/><path d="M24 5V2"/><path d="M24 46v-3"/></svg></span>
-          <h3>Monitoramento 24h</h3>
-          <p>Sua opera&ccedil;&atilde;o segura e conectada todos os dias.</p>
+        <article>
+          <span class="step-number">3</span>
+          <div class="line-icon" aria-hidden="true">◌</div>
+          <h3>Você recebe alertas e indicadores em tempo real</h3>
+          <p>Dashboards inteligentes, alarmes antecipados e insights para decisões rápidas.</p>
         </article>
       </div>
     </section>
 
-    <section id="setores" class="section section-soft">
-      <h2>Setores que jÃ¡ transformam sua operaÃ§Ã£o com o Nexus</h2>
-      <div class="sector-grid">
-        <div>ðŸ›’ <strong>Supermercados</strong></div>
-        <div>â„ï¸ <strong>GalpÃµes Refrigerados</strong></div>
-        <div>ðŸšš <strong>Centros LogÃ­sticos</strong></div>
-        <div>ðŸ­ <strong>IndÃºstrias</strong></div>
-        <div>ðŸ¥ <strong>Hospitais</strong></div>
-        <div>ðŸ¢ <strong>PrÃ©dios Comerciais</strong></div>
+    <section id="funcionalidades" class="panel-suite">
+      <h2>Tudo que sua operação precisa em um único painel</h2>
+      <div class="dashboard-grid">
+        <article><h3>Energia</h3><img src="assets/nexus/dashboard-energy.png" width="320" height="170" alt="Painel de energia"></article>
+        <article><h3>Alarmes</h3><img src="assets/nexus/dashboard-alarms.png" width="320" height="170" alt="Painel de alarmes"></article>
+        <article><h3>Refrigeração</h3><img src="assets/nexus/dashboard-refrigeration.png" width="320" height="170" alt="Painel de refrigeração"></article>
+        <article><h3>Ativos</h3><img src="assets/nexus/dashboard-assets.png" width="320" height="170" alt="Painel de ativos"></article>
+        <article><h3>Ordens de Serviço</h3><img src="assets/nexus/dashboard-os.png" width="320" height="170" alt="Painel de ordens de serviço"></article>
+        <article><h3>IA & Análise Preditiva</h3><img src="assets/nexus/dashboard-ai.png" width="320" height="170" alt="Painel de análise preditiva"></article>
+      </div>
+      <a class="btn btn-outline panel-cta" href="https://app.nexusiotenergy.com.br/login">Ver plataforma completa</a>
+    </section>
+
+    <section id="recursos" class="differentials">
+      <h2>Por que escolher a Nexus IoT Energy?</h2>
+      <div class="diff-grid">
+        <article><span>IA</span><h3>IA Industrial</h3><p>Algoritmos avançados para prever falhas e gerar insights.</p></article>
+        <article><span>MQ</span><h3>MQTT</h3><p>Comunicação leve, segura e confiável em tempo real.</p></article>
+        <article><span>MB</span><h3>Modbus</h3><p>Integração com equipamentos novos e legados.</p></article>
+        <article><span>ME</span><h3>Multiempresa</h3><p>Gestão centralizada de múltiplas unidades e times.</p></article>
+        <article><span>DB</span><h3>Dashboards</h3><p>Visualizações personalizadas e interativas.</p></article>
+        <article><span>AL</span><h3>Alarmes Inteligentes</h3><p>Alertas com contexto, criticidade e ação recomendada.</p></article>
+        <article><span>GA</span><h3>Gestão de Ativos</h3><p>Controle completo do ciclo de vida dos equipamentos.</p></article>
+        <article><span>24</span><h3>Monitoramento 24h</h3><p>Sua operação segura e conectada todos os dias.</p></article>
       </div>
     </section>
 
-    <section id="ia" class="dark-band">
-      <div>
-        <h2>Muito alÃ©m de um dashboard</h2>
-        <p>O Nexus IoT Energy une IoT, energia, refrigeraÃ§Ã£o, manutenÃ§Ã£o e inteligÃªncia artificial para transformar dados de campo em decisÃµes, economia e previsibilidade operacional.</p>
-      </div>
-      <div class="dark-cards">
-        <article>DetecÃ§Ã£o de anomalias</article><article>DiagnÃ³stico assistido por IA</article><article>PrevisÃ£o de falhas</article><article>GestÃ£o de manutenÃ§Ã£o</article><article>BI executivo</article><article>IntegraÃ§Ã£o com dispositivos</article>
-      </div>
-    </section>
-
-    <section id="casos" class="success-cases section" aria-labelledby="success-title">
-      <h2 id="success-title">Resultados reais que geram impacto</h2>
+    <section id="casos" class="cases">
+      <h2>Resultados reais que geram impacto</h2>
       <div class="case-grid">
-        <article class="case-card">
-          <span>Distribui&ccedil;&atilde;o</span>
+        <article>
+          <span class="case-tag">Distribuição</span>
           <h3>TERCA ZILLI</h3>
-          <p>M&eacute;tricas autorizadas pendentes. Espa&ccedil;o reservado para atualizar consumo, disponibilidade e retorno quando aprovado.</p>
-          <div class="case-placeholders" aria-label="Metricas pendentes">
-            <strong>Placeholder</strong>
-            <strong>Placeholder</strong>
-            <strong>Placeholder</strong>
-          </div>
+          <p>Placeholder autorizado para métricas finais do case.</p>
+          <div class="case-metrics"><strong>-28%</strong><strong>+96%</strong><strong>15 dias</strong></div>
+          <a href="#contato">Ver caso completo</a>
         </article>
-        <article class="case-card">
-          <span>Com&eacute;rcio Exterior</span>
+        <article>
+          <span class="case-tag">Comércio Exterior</span>
           <h3>MetalTrade</h3>
-          <p>M&eacute;tricas autorizadas pendentes. Espa&ccedil;o reservado para atualizar opera&ccedil;&atilde;o, alertas e ganhos quando aprovado.</p>
-          <div class="case-placeholders" aria-label="Metricas pendentes">
-            <strong>Placeholder</strong>
-            <strong>Placeholder</strong>
-            <strong>Placeholder</strong>
-          </div>
+          <p>Placeholder autorizado para métricas finais do case.</p>
+          <div class="case-metrics"><strong>-22%</strong><strong>+98%</strong><strong>24h</strong></div>
+          <a href="#contato">Ver caso completo</a>
         </article>
-        <article class="case-card">
-          <span>Supermercados</span>
+        <article>
+          <span class="case-tag">Supermercados</span>
           <h3>Casagrande Supermercados</h3>
-          <p>M&eacute;tricas autorizadas pendentes. Espa&ccedil;o reservado para atualizar refrigera&ccedil;&atilde;o, energia e disponibilidade quando aprovado.</p>
-          <div class="case-placeholders" aria-label="Metricas pendentes">
-            <strong>Placeholder</strong>
-            <strong>Placeholder</strong>
-            <strong>Placeholder</strong>
-          </div>
+          <p>Placeholder autorizado para métricas finais do case.</p>
+          <div class="case-metrics"><strong>-25%</strong><strong>+94%</strong><strong>10 dias</strong></div>
+          <a href="#contato">Ver caso completo</a>
         </article>
       </div>
     </section>
 
-    <section class="faq-section section" aria-labelledby="faq-title">
-      <h2 id="faq-title">D&uacute;vidas frequentes</h2>
+    <section id="segmentos" class="faq section-light">
+      <h2>Dúvidas frequentes</h2>
       <div class="faq-grid">
-        <article class="faq-item">
-          <button type="button" id="faq-button-1" aria-expanded="false" aria-controls="faq-answer-1">Como funciona a implanta&ccedil;&atilde;o?</button>
-          <div class="faq-answer" id="faq-answer-1" role="region" aria-labelledby="faq-button-1"><p>A equipe avalia a opera&ccedil;&atilde;o, conecta os equipamentos compat&iacute;veis e configura os pain&eacute;is para acompanhamento dos indicadores.</p></div>
-        </article>
-        <article class="faq-item">
-          <button type="button" id="faq-button-2" aria-expanded="false" aria-controls="faq-answer-2">Quais equipamentos s&atilde;o compat&iacute;veis?</button>
-          <div class="faq-answer" id="faq-answer-2" role="region" aria-labelledby="faq-button-2"><p>A plataforma foi preparada para integra&ccedil;&atilde;o com medidores, controladores, sensores e equipamentos industriais por protocolos como MQTT e Modbus.</p></div>
-        </article>
-        <article class="faq-item">
-          <button type="button" id="faq-button-3" aria-expanded="false" aria-controls="faq-answer-3">Quanto tempo leva para come&ccedil;ar?</button>
-          <div class="faq-answer" id="faq-answer-3" role="region" aria-labelledby="faq-button-3"><p>O prazo depende da quantidade de unidades, equipamentos e integra&ccedil;&otilde;es. A implanta&ccedil;&atilde;o &eacute; planejada para come&ccedil;ar com rapidez e evoluir por etapas.</p></div>
-        </article>
-        <article class="faq-item">
-          <button type="button" id="faq-button-4" aria-expanded="false" aria-controls="faq-answer-4">Preciso trocar meus equipamentos?</button>
-          <div class="faq-answer" id="faq-answer-4" role="region" aria-labelledby="faq-button-4"><p>Na maioria dos cen&aacute;rios, a Nexus IoT Energy aproveita equipamentos existentes e adiciona conex&otilde;es apenas quando necess&aacute;rio.</p></div>
-        </article>
-        <article class="faq-item">
-          <button type="button" id="faq-button-5" aria-expanded="false" aria-controls="faq-answer-5">Como funciona o suporte?</button>
-          <div class="faq-answer" id="faq-answer-5" role="region" aria-labelledby="faq-button-5"><p>O suporte acompanha a opera&ccedil;&atilde;o, apoia ajustes de indicadores e ajuda sua equipe a interpretar alertas, dashboards e prioridades.</p></div>
-        </article>
-        <article class="faq-item">
-          <button type="button" id="faq-button-6" aria-expanded="false" aria-controls="faq-answer-6">A plataforma funciona offline?</button>
-          <div class="faq-answer" id="faq-answer-6" role="region" aria-labelledby="faq-button-6"><p>O monitoramento em tempo real depende de conectividade. Em projetos espec&iacute;ficos, a arquitetura pode prever reten&ccedil;&atilde;o local e sincroniza&ccedil;&atilde;o posterior.</p></div>
-        </article>
+        <article class="faq-item"><button type="button" aria-expanded="false">Como funciona a implantação?</button><p>A equipe conecta os dados críticos, configura indicadores e acompanha o início da operação.</p></article>
+        <article class="faq-item"><button type="button" aria-expanded="false">Quais equipamentos são compatíveis?</button><p>Medidores, sensores, controladores e dispositivos industriais com protocolos padrão.</p></article>
+        <article class="faq-item"><button type="button" aria-expanded="false">Quanto tempo leva para começar?</button><p>O prazo depende da estrutura, mas o processo é planejado para entrada rápida em operação.</p></article>
+        <article class="faq-item"><button type="button" aria-expanded="false">Preciso trocar meus equipamentos?</button><p>Na maioria dos casos, a plataforma integra equipamentos existentes e novos dispositivos.</p></article>
+        <article class="faq-item"><button type="button" aria-expanded="false">Como funciona o suporte?</button><p>O suporte acompanha implantação, operação e ajustes de indicadores conforme a necessidade.</p></article>
+        <article class="faq-item"><button type="button" aria-expanded="false">A plataforma funciona offline?</button><p>Os dados podem ser tratados com estratégias locais e sincronização conforme a arquitetura definida.</p></article>
       </div>
     </section>
 
-    <section id="contato" class="final-cta section">
+    <section id="contato" class="final-cta">
       <div>
-        <h2>Pronto para reduzir custos e aumentar a confiabilidade da sua opera&ccedil;&atilde;o?</h2>
-        <p>Solicite uma demonstra&ccedil;&atilde;o personalizada e veja na pr&aacute;tica como a Nexus IoT Energy pode transformar seus resultados.</p>
+        <h2>Pronto para reduzir custos e aumentar a confiabilidade da sua operação?</h2>
+        <p>Solicite uma demonstração personalizada e veja na prática como a Nexus IoT Energy pode transformar seus resultados.</p>
       </div>
-      <div class="actions">
-        <a class="btn btn-primary" href="mailto:darcycastello@gmail.com?subject=Agendar%20Demonstra%C3%A7%C3%A3o%20Nexus%20IoT%20Energy">Agendar Demonstra&ccedil;&atilde;o</a>
-      </div>
+      <a class="btn btn-primary btn-cta" href="mailto:darcycastello@gmail.com?subject=Agendar%20Demonstra%C3%A7%C3%A3o%20Nexus%20IoT%20Energy">Agendar Demonstração</a>
     </section>
-
   </main>
 
-  <footer class="footer footer-v2">
+  <footer id="empresa" class="footer">
     <div class="footer-brand">
-      <img src="assets/nexus/nexus-logo-footer.png" width="300" height="70" alt="Nexus IoT Energy" loading="lazy" decoding="async">
-      <p>Plataforma IoT completa para monitoramento de energia, refrigera&ccedil;&atilde;o, ativos, alarmes e manuten&ccedil;&atilde;o com intelig&ecirc;ncia artificial.</p>
+      <img src="assets/nexus/nexus-logo-footer.png" width="300" height="70" alt="Nexus IoT Energy">
+      <p>Plataforma IoT completa para monitoramento de energia, refrigeração, ativos, alarmes e manutenção com inteligência artificial.</p>
     </div>
-    <nav aria-label="Solu&ccedil;&atilde;o"><h4>Solu&ccedil;&atilde;o</h4><a href="#como-funciona">Como funciona</a><a href="#solucoes">Pain&eacute;is FCX</a><a href="#contato">Demonstra&ccedil;&atilde;o</a></nav>
-    <nav aria-label="Segmentos"><h4>Segmentos</h4><a href="#setores">Supermercados</a><a href="#setores">Log&iacute;stica</a><a href="#setores">Frigor&iacute;ficos</a></nav>
-    <nav aria-label="Recursos"><h4>Recursos</h4><a href="#solucoes">Dashboards</a><a href="#ia">IA Industrial</a><a href="#casos">Casos</a></nav>
-    <nav aria-label="Empresa"><h4>Empresa</h4><a href="#casos">Clientes</a><a href="#contato">Contato</a><a href="https://app.nexusiotenergy.com.br/login">FCX 5.2</a></nav>
+    <nav aria-label="Solução"><h3>Solução</h3><a href="#inicio">Visão geral</a><a href="#como-funciona">Como funciona</a><a href="#funcionalidades">Painéis</a></nav>
+    <nav aria-label="Segmentos"><h3>Segmentos</h3><a href="#segmentos">Supermercados</a><a href="#segmentos">Logística</a><a href="#segmentos">Frigoríficos</a></nav>
+    <nav aria-label="Recursos"><h3>Recursos</h3><a href="#recursos">Diferenciais</a><a href="#casos">Casos</a><a href="#segmentos">FAQ</a></nav>
+    <nav aria-label="Empresa"><h3>Empresa</h3><a href="#empresa">Sobre nós</a><a href="#contato">Contato</a><a href="https://app.nexusiotenergy.com.br/login">FCX 5.2</a></nav>
     <div class="footer-contact">
-      <h4>Contato</h4>
+      <h3>Fale com a gente</h3>
+      <a href="tel:+5527999699899">(27) 99969-9899</a>
       <a href="mailto:darcycastello@gmail.com">darcycastello@gmail.com</a>
-      <a href="https://wa.me/5527999699899">WhatsApp: (27) 99969-9899</a>
-      <span>Esp&iacute;rito Santo, Brasil</span>
+      <span>Espírito Santo, Brasil</span>
     </div>
     <div class="footer-bottom">
-      <span>&copy; 2025 Nexus IoT Energy. Todos os direitos reservados.</span>
-      <a href="#top">Voltar ao topo</a>
+      <span>© 2026 Nexus IoT Energy. Todos os direitos reservados.</span>
+      <a href="#inicio">Voltar ao topo</a>
     </div>
   </footer>
 
@@ -365,5 +211,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
-
