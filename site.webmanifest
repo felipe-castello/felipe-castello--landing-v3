@@ -1,0 +1,18 @@
+{
+  "name": "Nexus IoT Energy",
+  "short_name": "Nexus IoT",
+  "description": "Monitoramento inteligente de energia, refrigeracao, ativos, alarmes e manutencao.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#020c1b",
+  "theme_color": "#020c1b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
